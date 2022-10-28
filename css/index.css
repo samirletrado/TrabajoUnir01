@@ -1,0 +1,303 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(../img/background.jpg);
+    background-repeat: repeat;
+    background-position: top center;
+    /*height: 1080px;*/
+}
+
+/************cabezote***********************************************************/
+header {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+    background: url(../img/cabezote.jpg);
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 120px;
+    height: 90px;
+    background: white;
+}
+#logoimg {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 85px;
+    height: 85px; 
+}
+
+
+header ul#redes li {
+    margin-top:25px;
+    float: right;
+    margin-right:30px;
+    width: 22px;
+    color: white;
+}
+
+header i {
+    font-size: 30px;
+    
+    color: white;
+    padding: 12px;
+    float: right;
+}
+
+
+
+/************barra de navegacion ***********************************************/
+nav {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background: url(../img/barraNav.png);
+    border-bottom: 1px solid white;
+}
+
+    nav ul {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 1000px;
+        height: 45px;
+        /*background: rgba(0,0,255,0.5);*/
+    }
+
+        nav ul li {
+            float: left;
+            line-height: 45px;
+            text-align: center;
+            width: 122px;
+            font-size: 16px;
+            color: white;
+            /*background: rgba(0,0,255,0.5);*/
+            border-right: 1px solid white;
+        }
+
+
+
+/************section inicio **************************************************/
+section#inicio {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    /*height: 00px;*/
+    background: white;
+}
+
+.articulo1 {
+    width: 900px;
+    height: 100px;
+    padding: 10px 50px 30px 50px;
+    background: rgba(0,00, 50, 0.2);
+}
+
+    .articulo1 ol li {
+        height: 20px;
+        text-align: left;
+        list-style: inside;
+        font-size: 15px;
+        color: darkblue;
+        list-style-image: url(../img/vineta.png);
+        list-style-position: inside;
+    }
+
+.articulo2 {
+    width: 900px;
+    height: 100px;
+    padding: 10px 50px 10px 50px;
+    background: rgba(0,100, 0, 0.2);
+}
+
+.articulo3 {
+ 
+    width: 900px;
+    
+    padding: 50px;
+    background: rgba(100,0, 0, 0.2);
+}
+
+article.articulo3 li {
+    list-style-image: url(../img/vineta.png);
+    list-style-position: inside;
+}
+
+h1{
+    font-size:24px;
+    color:darkblue;
+}
+
+h2 {
+    font-size: 20px;
+    color: darkblue;
+}
+
+ h3 {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    color: Highlight;
+    top: 32px;
+}
+
+
+
+/************section contactenos **************************************************/
+section#contactenos {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 650px;
+    background: lightblue;
+}
+
+    section#contactenos h1 {
+        position: relative;
+        font-size:30px;
+        text-align:center;
+        color:Highlight;
+        top: 32px;
+        
+    }
+
+    
+
+    section#contactenos form {
+        position: relative;
+        margin: auto;
+        padding: 20px;
+        top: 50px;
+        width: 400px;
+        
+        background: rgba(0,0,255,0.2);
+    }
+
+        section#contactenos form input#nombre {
+            position: absolute;
+            padding: 5px;
+            width: 270px;
+            height: 15px;
+            background: #dce9d7;
+            border: 0px;
+        }
+
+        section#contactenos form input#apellidos {
+            position: absolute;
+            padding: 5px;
+            width: 270px;
+            height: 15px;
+            background: #dce9d7;
+            border: 0px;
+        }
+
+        section#contactenos form input#fecha {
+            position: absolute;
+            padding: 5px;
+            width: 230px;
+            height: 15px;
+            background: #dce9d7;
+            border: 0px;
+        }
+
+        section#contactenos form input#email {
+            position: absolute;
+            
+            padding: 5px;
+            width: 270px;
+            height: 15px;
+            background: #dce9d7;
+            border: 0px;
+        }
+
+        section#contactenos form input#asunto {
+            position: absolute;
+            
+            padding: 5px;
+            width: 270px;
+            height: 15px;
+            background: #dce9d7;
+            border: 0px;
+        }
+
+        section#contactenos form #mensaje {
+            width: 380px;
+            height: 35px;
+            background: white;
+            border: 2px solid #f6f6f6;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 14px;
+            color: black;
+        }
+
+        section#contactenos form input#enviar {
+            display: inline-block;
+            padding: 10px;
+            width: 100px;
+            height: 40px;
+            margin-left:50px;
+            background: Highlight;
+            border: 0px;
+            color: white;
+            cursor: pointer;
+        }
+
+        section#contactenos form input#borrar {
+            display: inline-block;
+            padding: 10px;
+            width: 100px;
+            height: 40px;
+            margin-left: 50px;
+            background: Highlight;
+            border: 0px;
+            color: white;
+            cursor: pointer;
+        }
+/************footer*********** ***********************************************/
+
+/* unvisited link */
+a:link {
+    color: cornflowerblue;
+}
+
+/* visited link */
+a:visited {
+    color: cornflowerblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: cornflowerblue;
+}
+
+
+/************footer*********** ***********************************************/
+footer {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 60px;
+    background: black;
+    color: white;
+    line-height: 62px;
+    text-align: center;
+    font-size: 15px;
+}
